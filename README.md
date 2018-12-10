@@ -5,6 +5,7 @@ trials
 
 
 SUMMARY:
+
 'heatmap.py', 'eventplot_single.py', and 'eventplot_dual.py' are the three 'top-level'
 scripts and are the only ones that should be opened and changed unless modifications
 are needed. The other .py files are supporting modules.
@@ -19,6 +20,7 @@ behaviors (states) as horizontal bars as well as cumulative volume and heart rat
 'cumulative_volume.py' gets the cumulative convex volume of a trial.
 
 RUNNING THE SCRIPTS:
+
 Open one of the three 'top-level' scripts. Underneath the line
 
 'if __name__ == "__main__":'
@@ -28,6 +30,7 @@ this list with the trial name you wish to plot. Multiple file names can be place
 'name' and the script will generate multiple plots.
 
 DATA:
+
 The folders 'boris_data', 'heartrate_data', 'tracked_data', and 'volume_data' must 
 exist in the same directory as the scripts and modules. boris_data is unaltered
 after being exported from BORIS as a csv. tracked_data is unaltered with the exception
@@ -46,9 +49,13 @@ stable, up-to-date version of these packages.
 Dependency 		Just_A_Successful_Version
 
 Python 			3.6.6
+
 NumPy 			1.14.5
+
 SciPy 			1.1.0
+
 Pandas 			0.23.4
+
 Matplotlib  		2.2.3
 
 Guide to installing packages with pip:
