@@ -4,7 +4,7 @@ MSE_Scripts is a project that generates plots of various data collected during M
 trials
 
 
-SUMMARY:
+## SUMMARY:
 
 'heatmap.py', 'eventplot_single.py', and 'eventplot_dual.py' are the three 'top-level'
 scripts and are the only ones that should be opened and changed unless modifications
@@ -19,7 +19,7 @@ behaviors (states) as horizontal bars as well as cumulative volume and heart rat
 'heartrate.py' plots the heart rate of a subject on a given axis.
 'cumulative_volume.py' gets the cumulative convex volume of a trial.
 
-RUNNING THE SCRIPTS:
+## RUNNING THE SCRIPTS:
 
 Open one of the three 'top-level' scripts. Underneath the line
 
@@ -29,7 +29,7 @@ near the bottom of the script, find the variable 'name'. Replace the string insi
 this list with the trial name you wish to plot. Multiple file names can be placed inside
 'name' and the script will generate multiple plots.
 
-DATA:
+## DATA:
 
 The folders 'boris_data', 'heartrate_data', 'tracked_data', and 'volume_data' must 
 exist in the same directory as the scripts and modules. boris_data is unaltered
